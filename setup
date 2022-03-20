@@ -1,0 +1,3 @@
+BASEDIR=$(dirname "$0")
+python3 -m venv $BASEDIR/.venv
+$BASEDIR/.venv/bin/pip3 install -r $BASEDIR/requirements.txt
