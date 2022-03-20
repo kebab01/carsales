@@ -1,16 +1,15 @@
-<<<<<<< HEAD
 # carsales
-A python script that reads a [carales](https://www.carsales.com.au/) webpage and scrapes the data about the cars and puts the data into an excel doc so you can find the best priced car. Please note this script is quite old and has been superseded by a mobile app version, with full webscraping capability. Please check [here](https://github.com/kebab01/carsales-scraper) for more information.
+A python script that scrapes [carales](https://www.carsales.com.au/) and dumps the data into an excel doc so you can easily analyse the data to find the best priced car.
+
+## Quickstart
+- Navigate to directory
+- Run setup `./setup`
+- Got to [carsales.com](https://www.carsales.com.au/), complete your car search and place the URL of the webpage in LINK_HERE.txt
+- Run script `./run`
 
 ## Usage
-- Save the webpages you want to scrape into a directory called CarsalesFiles - Had to be done this way as I wasnt able to get around the anti-web scraping technology implemented on carsales website
-- Run the script using `python scrape.py`
-- Script will populate excel spreadsheet
-=======
-A python script that reads a carales webpage and scrapes the data about the cars and puts the data into an excel doc so you can find the best priced car. Please note this script is quite old and has been superseded by a mobile app version, with full webscraping capability. Please check here for more information.
-
-Usage
-Save the webpages you want to scrape into a directory called CarsalesFiles - Had to be done this way as I wasnt able to get around the anti-web scraping technology implemented on carsales website
-Run the script using python scrape.py
-Script will populate excel spreadsheet
->>>>>>> 9ba8769 (Data retrieval now completely automatic)
+- Create python virtual environment `python3 -m venv .venv`
+- Activate virtual environment `source .venv/bin/activate`
+- Got to [carsales.com](https://www.carsales.com.au/), complete your car search and place the URL of the webpage in LINK_HERE.txt 
+- Run the script using `python main.py`
+- Let it run and you will now have a populated excel spreadsheet
